@@ -319,3 +319,9 @@ npm start
 6. **Backend cache invalidation is authoritative.** The frontend never waits a fixed duration before refetching. It trusts that the backend has invalidated Redis before sending the success response, so `loadPosts()` immediately after a mutation always returns current data.
 
 7. **No SSR / RSC.** All pages are `'use client'`. Server components were not used because the data source is a third-party Express API that requires `fetch` from the browser, and realtime updates require client-side socket state.
+<img width="664" height="486" alt="Screenshot 2026-05-19 at 12 34 46 AM" src="https://github.com/user-attachments/assets/92fae1a2-d59c-4001-88bf-901cf2053c26" />
+<img width="1512" height="909" alt="Screenshot 2026-05-19 at 12 34 37 AM" src="https://github.com/user-attachments/assets/95379041-8eea-4c39-ac01-663647612809" />
+<img width="1512" height="910" alt="Screenshot 2026-05-19 at 12 34 24 AM" src="https://github.com/user-attachments/assets/905555e8-ba17-4807-a398-50a01441912b" />
+<img width="1511" height="908" alt="Screenshot 2026-05-19 at 12 34 10 AM" src="https://github.com/user-attachments/assets/bbf50bfe-b550-403e-98eb-9bb6576ec189" />
+<img width="1512" height="582" alt="Screenshot 2026-05-19 at 12 33 19 AM" src="https://github.com/user-attachments/assets/3370972b-b58d-4c81-8418-92e7802118d4" />
+
